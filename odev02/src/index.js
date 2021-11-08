@@ -34,4 +34,4 @@ export function YeniOyun(){ //yeni oyun oluşturmak için kullanıldı
     for (let bg = 0; bg< 3; bg++) { // her yeni oyunda üç kart için default arkaplan oluşturuldu.
         document.getElementById(`img${bg}`).src = "images/kart.png"; 
     }
-}
+} //
