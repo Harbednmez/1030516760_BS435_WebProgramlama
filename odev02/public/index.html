@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <title>Kediyi Bul</title> 
+        <link rel="stylesheet" href="style.css"/>  
+        <script src="index.js"></script> 
+    </head> 
+    <body> 
+        
+        <h2> KEDİ BULMACA </h2> 
+        <p class="mesaj">Bu oyunda 3 kapalı kart içindeki Kediyi bulman gerekmektedir. İlk Tercihte Kedi kartını bulmaz isen 2. seçim hakkı tanınacaktır.</p>
+        <img id="img0" class="kart" onclick="displayKart('0')"> 
+        <img id="img1" class="kart" onclick="displayKart('1')">
+        <img id="img2" class="kart" onclick="displayKart('2')"> 
+
+        <div class="mesaj"> 
+            <p id="alanId">Kediyi bulmak için kartın üzerine tıklamalısın.</p> 
+            <p id="kazandiId" style="display: none">Kazandın!!! Tebrik Ederiz :) Yeni bir oyun oynamak istersen <a href="index.html"><span class=”link”>Buraya</span></a> tıklayabilirsin.</p> 
+            <p id="yenildiId" style="display: none">Kaybettin !!! Yeni bir oyun oynamak istersen <a href="index.html"><span class=”link”>Buraya</span></a> tıklayabilirsin.</p> 
+        </div> 
+
+        <script src="bundle.js"></script>
+        <script>Game.YeniOyun();</script>
+        
+    </body> 
+</html>
